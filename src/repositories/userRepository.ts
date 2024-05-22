@@ -11,7 +11,7 @@ export const userRepository = {
       const db = await sqliteConnection();
 
       const querySQL =
-        "INSERT INTO user (id, name, email, password) VALUES (?, ?, ?, ?);";
+        "INSERT INTO users (id, name, email, password) VALUES (?, ?, ?, ?);";
 
       await db.run(querySQL, [id, name, email, password]);
 

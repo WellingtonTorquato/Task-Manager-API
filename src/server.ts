@@ -17,7 +17,7 @@ app.use(cookieParser());
 const whiteList = [
   "http://localhost:5173",
   "http://127.0.0.1:5173",
-  "task-manager-rho-orcin.vercel.app",
+  "https://task-manager-rho-orcin.vercel.app",
 ];
 
 app.use(
